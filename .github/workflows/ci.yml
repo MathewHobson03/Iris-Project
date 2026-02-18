@@ -27,7 +27,7 @@ jobs:
           pip install seaborn
 
       - name: Print Test Message
-        run: "We would have unit test here"
+        run: echo "We would have unit test here"
 
   deploy:
     runs-on: ubuntu-latest
